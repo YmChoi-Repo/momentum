@@ -1,11 +1,18 @@
-// const mon = "mon";
-// const tue = "tue";
-// const wed = "wed";
-// const thu = "thu";
-// const fri = "fri";
-// const sat = "sat";
-// const sun = "sun";
-// 일일히 선언해줄 필요 없이, 배열로 나타내면 해결
+const playerName = "ym";
+const playerPoints = 121212;
+const playerHandsome = false;
+const playerFat = "no"
 
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
-console.log(daysOfWeek);
+const player = {
+  name: "ym",
+  points: 10,
+  fat : true,
+};
+
+
+console.log(player);
+// 오브젝트 정의
+
+player.points = player.points + 15;
+console.log(player.points);
+// 만약 player 값을 수정해주고 싶다면! 함수로 선언해주면 된다(이후로부턴 다음강의에 나오는거 같당..)
