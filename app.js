@@ -1,7 +1,11 @@
-// const amiFat = "true";
-//이것은 문자선언이오
-const amiFat = true;
-console.log(amiFat);
+// const mon = "mon";
+// const tue = "tue";
+// const wed = "wed";
+// const thu = "thu";
+// const fri = "fri";
+// const sat = "sat";
+// const sun = "sun";
+// 일일히 선언해줄 필요 없이, 배열로 나타내면 해결
 
-const amislim = false;
-console.log(amislim);
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+console.log(daysOfWeek);
